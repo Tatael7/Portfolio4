@@ -1,0 +1,21 @@
+.sideBar {
+    border: solid 5px red;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    left: 0;
+    
+}
+
+#otherStuff {
+    background-color: chartreuse;
+    position: relative;
+    top: 100;
+    right:-100;
+}
+
+.boton {
+    position: absolute;
+}
+
+

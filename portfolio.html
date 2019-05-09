@@ -5,12 +5,204 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Hello World</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
     
 </head>
 <body>
-    <footer>Armando Ochoa Copyright@2019</footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1">
+                <aside class="container">
+                    <div class="row">
+                        <ul class="sideBar">
+                            <li>
+                                <img href="#">
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="index.html">About</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="portfolio.html">Portfolio</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="https://github.com/"><img src="assets/images/gh.png" height="50" width="50"></a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/ochoa-8a/"><img src="assets/images/link.png" height="50" width="50"></a>
+                                <hr>
+                            </li>
+                            <li>
+                                <footer>Armando Ochoa Copyright 2019</footer>
+                            </li>
+                        </ul>   
+                    </div>
+                </aside>
+            </div>
+            <div class="col-md-11">
+                <div class="container">
+                    <h1 class="display-3 col-sm-12 mainTitle">Portfolio</h1>
+                    <section id="displayArea">
+                            <div class="row">
+                                <div class="col-lg-4" id="inProgress">
+                                    <h5 class="alert alert-danger">In Progress</h5>
+                                    <aside>                            
+                                        <button class="pulse boton"><a href="https://tatael7.github.io/RPS-Multiplayer/" target="_blank">RPS Game</a></button>                           
+                                        <img src="assets/images/rPS2.jpg" alt="Rock,Paper,Scisors" height="200" width="150">
+                                        <div>
+                                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                Summary
+                                            </a>
+                                            <div class="collapse" id="collapseExample">
+                                                <div class="card card-body">
+                                                    A turn based rock, paper, scissors game with a Pokemon theme.
+                                                    The puropouse is to implement interactive multiplayer via Firebase.
+                                                    Current Working Problem: Having issues where different Pokemon are acounted for multiple 
+                                                    times, apart from trouble recalling objects from Firebase.
+                                                </div>
+                                            </div>        
+                                        </div>                           
+                                    </aside>
+                                    <aside>
+                                        <button class="boton pulse"><a href="https://tatael7.github.io/Fate-Coding/" target="_blank">Role Playing</a></button>
+                                        <img src="assets/images/rpg.jpg" alt="RPG" height="200" width="150">
+                                        <div>
+                                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                Summary
+                                            </a>
+                                            <div class="collapse" id="collapseExample2">
+                                                <div class="card card-body">
+                                                    A turn based RPG based around the Fate series. An exponential 
+                                                    growth variable is used for the Attack Power category so as to make up
+                                                    for the fact that there's no healing system(with the exception of "Caster").
+                                                    Current Working Problem: Setting up the actual game logic.
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </aside>
+                                    <aside>
+                                        <button class="pulse boton"><a href="https://github.com/Tatael7/freindFinder" target="_blank">Anime Friend Finder</a></button>
+                                        <img src="*" alt="Anime Friend Finder" height="200" width="150">
+                                        <div>
+                                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                Summary
+                                            </a>
+                                            <div class="collapse" id="collapseExample3">
+                                                <div class="card card-body">
+                                                    An app that allows the client to take a survey and then surches the api of friends
+                                                    database to find the best match to be friends. The database updates with every client.
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </aside>
+                                </div>
+                                <div class="col-lg-4">
+                                    <h5 class="alert alert-warning">Finished and Improving</h5>
+                                    <aside>
+                                        <button class="pulse boton"><a href="https://github.com/Tatael7/liri-node-app" target="_blank">LIRI</a></button>
+                                        <img src="" alt="LIRI" height="200" width="150">
+                                        <div>
+                                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                Summary
+                                            </a>
+                                            <div class="collapse" id="collapseExample6">
+                                                <div class="card card-body">
+                                                    LIRI, like SIRI but on the command line. This is simple app works on the command line
+                                                    to look up different kinds of information, in particular info about "songs" via Spotify,
+                                                    "movies" via OMDB, and "concerts" via BandsInTown. 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </aside>
+                                    <aside>
+                                        <button class="pulse boton"><a href="https://github.com/Tatael7/bamazon" target="_blank">BAmazon</a></button>
+                                        <img src="" alt="BAmazon" height="200" width="150">
+                                        <div>
+                                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria_expanded="false" aria-controls="collapseExample">
+                                                Summary
+                                            </a>
+                                            <div class="collapse" id="collapseExample4">
+                                                <div class="card card-body">
+                                                    BAmazon, this is a Node and MySql based command line app which allows you to simulate both buying
+                                                    form an online store, as well as managing the store. By differentiating between a "customer", "manager", and 
+                                                    "supervisor" specific javascript files;this is done by calling different files as well as 
+                                                    requiring passwords as you go up the scale. The database is constantly active and updating thanks to 
+                                                    MySql.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </aside> 
+                                    <aside>
+                                        <button class="pulse boton"><a href="https://github.com/Tatael7/TriviaGame" target="_blank">Anime Trivia</a></button>
+                                        <img src="" alt="Anime Trivia" height="200" width="150">
+                                        <div>
+                                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample8" role="botton" aria_expanded="false" aria-controls="collapseExample">
+                                                Summary
+                                            </a>
+                                            <div class="collapse" id="collapseExample8">
+                                                <div class="card card-body">
+                                                    A timed trivia game based around questions from personal anime I enjoy. The basic system is run on
+                                                    a SetTimeOut system which will time you.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </aside>                                   
+                                </div>
+                                    <div class="col-lg-4">
+                                        <h5 class="alert alert-success">Finished for Deployment</h5>
+                                        <aside>
+                                            <button class="pulse boton"><a href="https://github.com/adrianb13/Project2" target="_blank">Coding Assassins</a></button>
+                                            <img src="#" alt="Coding Assassins" height="200" width="150">
+                                            <div>
+                                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample5" role="button" aria_expanded="false" aria-controls="collapseExample">
+                                                    Summary
+                                                </a>
+                                                <div class="collapse" id="collapseExample5">
+                                                    <div class="card card-body">
+                                                        Coding Assassins, a site that easily allows for Clients to post possible jobs they'd like to complete and then 
+                                                        proceed to hire a Web Developer of their choosing. These Developers are in a stored database and can 
+                                                        login to their personal profile that will hold the jobs for which they have been hired. If a Developer
+                                                        is new to the site then they will have the option to create a new profile. 
+                                                        <a href="https://coding-assassins.herokuapp.com/" target="_blank">Link to Heroku Deployment</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </aside>
+                                        <aside>
+                                            <button class="pulse boton"><a href="https://github.com/jamesravenscroft/groupProject1" target="_blank">Reasons To Drink</a></button>
+                                            <img src="#" alt="Reasons To Drink" height="200" width="150">
+                                            <div>
+                                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample7" role="button" aria_expanded="false" aria_controls="collapseExample">
+                                                    Summary
+                                                </a>
+                                                <div class="collapse" id="collapseExample7">
+                                                    <div class="card card-body">
+                                                        Everyone needs a drink every now and then, with this simple app we offer our clients an easy way to find 
+                                                        both a reason and a place to have a good time. We aim to both please our clients cravings as well as educate them 
+                                                        in various cultures. Upon request the app searches for brewries in the area the client has specified, it also looks 
+                                                        for holidays world wide that will be the reason to drink.
+                                                        <a href="http://www.reasontodrink.fun/" target="_blank">Link to Deployed app.</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </aside>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>   
+            </div>
+        </div>
+    </div>
+ 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
